@@ -17,3 +17,16 @@ div.square {
   /* top: 0; */
   width: 100%;
 }
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  Font-size: 50px;
+}
+
+a:hover {
+  color: White;
+  background-color: Black;
+  text-decoration: none;
+}
