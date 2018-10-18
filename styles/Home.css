@@ -18,15 +18,16 @@ div.square {
   width: 100%;
 }
 
-a:link {
+a.menu:link {
   color: black;
   background-color: transparent;
   text-decoration: none;
   Font-size: 50px;
 }
 
-a:hover {
-  color: White;
-  background-color: Black;
+a.menu:hover {
+  color: black;
+  background-color: transparent;
   text-decoration: none;
+  font-weight: bold;
 }
