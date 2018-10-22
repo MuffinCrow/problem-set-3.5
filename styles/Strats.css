@@ -78,6 +78,14 @@ div.tablenavb {
   z-index: 1;
 }
 
+.banner {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  left: 0;
+}
+
 h1 {
   font-size: 70px;
   text-align: center;
@@ -99,15 +107,8 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-size: 35px;
-  text-align: center;
-}
-
 p {
   font-size: 18px;
-  margin-left: 10px;
-  width: 100%;
 }
 
 html {
@@ -120,6 +121,28 @@ html {
 
 a:visited {
   font-style: italic;
+}
+
+#creators {
+  color: white;
+  border: solid 2px white;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.directory {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table#directory {
+  width: 100%;
+  height: 600px;
+  color: darkgrey;
+  background-color: #696969;
 }
 
 #footer {
@@ -139,38 +162,4 @@ a:visited {
 
 #contact {
   color: white;
-}
-
-#hero {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
-  vertical-align: middle;
-}
-
-table.heroes {
-  width: 100%;
-  height: 600px;
-  color: darkgrey;
-  background-color: #696969;
-}
-
-#heroes {
-  color: white;
-  border: solid 2px white;
-  border-collapse: collapse;
-  padding: 10px;
-}
-
-td#heroes:first-child {
-  width: 10%;
-}
-
-td#heroes:nth-child(2) {
-  width: 10%;
-}
-
-td#heroes:last-child {
-  width: 60%;
 }
