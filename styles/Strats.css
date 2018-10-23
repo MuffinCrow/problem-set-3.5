@@ -109,6 +109,7 @@ h2 {
 
 p {
   font-size: 18px;
+  margin-left: 10px;
 }
 
 html {
@@ -120,17 +121,17 @@ html {
 }
 
 a:visited {
-  font-style: italic;
+  color: black;
 }
 
-#creators {
+#table {
   color: white;
   border: solid 2px white;
   border-collapse: collapse;
   padding: 10px;
 }
 
-.directory {
+.strats {
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
@@ -138,7 +139,7 @@ a:visited {
   vertical-align: middle;
 }
 
-table#directory {
+table#strats {
   width: 100%;
   height: 600px;
   color: darkgrey;
@@ -162,4 +163,16 @@ table#directory {
 
 #contact {
   color: white;
+}
+
+td#table:first-child {
+  width: 10%;
+}
+
+td#table:nth-child(2) {
+  width: 20%;
+}
+
+td#table:last-child {
+  width: 30%;
 }

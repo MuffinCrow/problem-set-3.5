@@ -120,7 +120,7 @@ html {
 }
 
 a:visited {
-  font-style: italic;
+  color: black;
 }
 
 #creators {

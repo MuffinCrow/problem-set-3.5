@@ -119,7 +119,7 @@ html {
 }
 
 a:visited {
-  font-style: italic;
+  color: black;
 }
 
 #footer {
