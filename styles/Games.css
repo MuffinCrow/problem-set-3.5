@@ -124,14 +124,14 @@ a:visited {
   color: black;
 }
 
-#table {
+#games {
   color: white;
   border: solid 2px white;
   border-collapse: collapse;
   padding: 10px;
 }
 
-.strats {
+.gamemodes {
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
@@ -139,9 +139,8 @@ a:visited {
   vertical-align: middle;
 }
 
-table#strats {
+table#gamemodes {
   width: 100%;
-  height: 600px;
   background-color: #696969;
 }
 
@@ -164,14 +163,10 @@ table#strats {
   color: white;
 }
 
-td#table:first-child {
-  width: 10%;
-}
-
-td#table:nth-child(2) {
+td#games:first-child {
   width: 20%;
 }
 
-td#table:last-child {
-  width: 30%;
+td#games:last-child {
+  width: 40%;
 }
