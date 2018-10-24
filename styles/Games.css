@@ -108,7 +108,7 @@ h2 {
 }
 
 h1 ~ p {
-  font: 18px;
+  font: 18px arial;
   margin-left: 10px;
   font-style: normal;
 }
@@ -119,6 +119,7 @@ html {
 
 |* {
   color: black;
+  font-family: arial;
 }
 
 a:visited {
